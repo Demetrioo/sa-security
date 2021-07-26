@@ -1,12 +1,7 @@
 .nominho{
-  font-family: "MockFlowFont";
-  text-align: center;
-  background-color: #050309;
-  color: white;
   width: 310px;
   height: 30px;
-  margin: 0;
-  border-top-right-radius:    5em 5em;
+
 }
 
 .title{
@@ -201,6 +196,7 @@ header{
   .card__image {      
     width: 100%;
     height: auto;
+    border-radius: 10%
   }
   
   .card__overlay {
