@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Freedie motorsd</title>
-   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-   <link rel="stylesheet" href="./css/cadastro.css">
+   <title>cadastro</title>
+   <link rel="stylesheet" href="./cssC/loginCadastro.css">
 </head>
-<body>
-   <div class="container">
-       <h1 class="title">Login</h1>
-           <div class="wrapper animated bounceInLeft">
-   <form>
-       <div class="mb-3">
-         <label for="exampleInputEmail1" class="form-label">Email: </label>
-         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-         <div id="emailHelp" class="form-text">Nunca compartilharemos seu email com alguém.</div>
-       </div>
-       <div class="mb-3">
-         <label for="exampleInputPassword1" class="form-label">Digite sua senha: </label>
-         <input type="password" class="form-control" id="exampleInputPassword1">
-       </div>
-       <div class="mb-3 form-check">
-         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-         <label class="form-check-label" for="exampleCheck1">Lembrar usuário</label>
-       </div>
-       <button type="submit" class="btn btn-primary">Confirmar</button>
-     </form>
-       </div>
-   </div>
-</div>
+<body background="./img/parede.jpg" alink="orange" vlink="blue" link="black">
+ 
+       <!-- <div class="container" >
+           <a class="links" id="paracadastro"></a>
+           <a class="links" id="paralogin"></a> -->
+          <center>
+             <header>
+                 <h1>Login</h1>
+             </header>
+           <div class="conteiner">     
+            
+             <div id="login">
+               <form >
+              
+ 
+                 <div class="row">
+                   <label for="email_login">Seu e-mail</label>
+                   <input id="email" name="email_login" required="required" type="text" placeholder="contato@htmlecsspro.com"/>
+                 </div><br>
+                
+               <div class="row">
+                   <label for="senha_login">Sua senha</label>
+                   <input id="senha" name="senha_login" required="required" type="password" placeholder="1234" />
+                 </div><br>
+                
+                 <div class="row">
+                   <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                   <label for="manterlogado">Lembrar usuário</label>
+                 </div><br>
+                
+                <div class="row">
+                   <button type="button" id="cadastro" onclick="logar()">Entrar</button>
+                 </div><br>
+                 <div class="row">
+                     <label> Não tem conta? <b><a href="./cadastro.html" target="self">Clique aqui.</a></b></label>
+                   </div>
+               </form>
+             </div>
+          </center>
+         <script src="./JSC/Cadastro.js"></script>
 </body>
 </html>

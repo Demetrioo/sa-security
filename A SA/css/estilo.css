@@ -1,8 +1,8 @@
 .nominho{
-  width: 100px;
+  width: 500px;
   height: 10px;
-  padding: 30px;
-  font-size: 20px;
+  padding: 10px;
+
 }
 
 .title{
@@ -72,9 +72,10 @@ li a:hover:not(.active) {
 }
 
 header{
-    background-color: #020006;
-    color: white;
+    background-color: #13293d;
+    color: #1b98e0;
     padding: 20px;
+    border: 4px solid #1b98e0;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
